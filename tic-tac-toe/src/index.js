@@ -4,6 +4,8 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const {useState} = React
+
 function TicTacToe() {
   const [squares,setSquares] = useState(Array(9).fill(""))
 const [winner,setWinner] = useState(false);
