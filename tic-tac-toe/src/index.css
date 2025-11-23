@@ -25,9 +25,9 @@ code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2vw;
-  max-width: 300px;
-  place-items: center;
-  margin: auto;
+  max-width:  300px;
+  place-items:  center;
+  margin:  auto;
 }
 
 #reset {
