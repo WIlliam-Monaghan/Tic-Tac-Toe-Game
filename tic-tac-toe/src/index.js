@@ -6,7 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 function TicTacToe() {
   return (
-    <h1>Hello World!</h1>
+    <div className="form">
+      <h1>Tic-Tac-Toe</h1>
+      <div className="grid-layout">
+       {Array.from({ length: 9 }, (_, i) => (
+        <button key={i} className="square"></button>
+      ))}
+      </div>
+    </div>
   )
 }
 
